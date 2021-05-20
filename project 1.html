@@ -15,9 +15,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+<form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbwCZZnzSGCTLUEhG0uUn5-_YOJKJNYrcQLD0CJ2n_inWkDYlRY/exec">
+    <!-- change the form action to your script url -->
+  
 <fieldset class="pure-group">
     <label for="name">Nama:</label>
-    <input id="email" name="name" type="name" value=""
+    <input id="name" name="name" type="name" value=""
     required placeholder="Siapa nama Saudara?"/>
   </fieldset>
 
@@ -27,11 +31,10 @@
         required placeholder="your.name@email.com"/>
       </fieldset>
 
-
 <!--menu-->
       <fieldset class="pure-group">
-        <label for="menu">Konfirmasi Kedatangan:</label>
-        <select id="menu" name="menu"> 
+        <label for="extras">Konfirmasi Kedatangan:</label>
+        <select id="extras" name="extras"> 
           <option selected>Bisa Datang</option>
           <option>Tidak Bisa datang</option>
         </select>
